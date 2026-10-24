@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="The generative AI video portfolio of Abdelrahman Abu Risha.">
+  <title>Abdelrahman Abu Risha — Generative AI Video Creator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile-layout.css">
+  <script src="i18n.js" defer></script>
+  <script src="videos.js" defer></script>
+  <script src="api/portfolio-videos.js" defer></script>
+  <script src="portfolio-ui.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="العودة إلى البداية"><span class="brand-mark">ع</span><span>عبدالرحمن أبو ريشة<span class="brand-dot">.</span></span></a>
+    <nav id="site-nav" aria-label="التنقل الرئيسي">
+      <a href="#ads">الإعلانات</a><a href="#shorts">فيديوهات قصيرة</a><a href="#long">فيديوهات طويلة</a><a href="#approach">ما أقدّمه</a>
+    </nav>
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="availability" href="#contact"><span></span> متاح للتعاون</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> صانع محتوى بالذكاء الاصطناعي التوليدي</p>
+        <div class="hero-orb-window" aria-hidden="true">
+        <div class="hero-art hero-art-mobile">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-sun"></div><div class="art-frame"><span class="frame-corner corner-a"></span><span class="frame-corner corner-b"></span><span class="frame-corner corner-c"></span><span class="frame-corner corner-d"></span><span class="frame-caption">GENERATIVE<br>VISUALS</span><span class="frame-play" aria-hidden="true">▶</span></div><div class="art-token art-token-video"><span>01</span> TEXT TO VIDEO</div><div class="art-token art-token-motion"><span>02</span> MOTION / AI</div><div class="art-index">01 <i></i> 13</div><span class="art-stamp">AI<br>STUDIO</span>
+        </div>
+        </div>
+        <h1>أحوّل الفكرة<br>إلى <span class="accent">مشهدٍ يُرى.</span></h1>
+        <p class="hero-description">أنا عبدالرحمن أبو ريشة. أصنع فيديوهات ومشاهد بصرية باستخدام أدوات الذكاء الاصطناعي التوليدي، من الفكرة إلى النسخة النهائية.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#ads">استكشف أعمالي <span aria-hidden="true">↙</span></a><a class="text-link" href="#contact">لنتحدث عن مشروعك <span aria-hidden="true">←</span></a></div>
+        <div class="hero-language"><button class="language-switch" id="language-toggle" type="button" aria-label="Translate the website into Arabic">انقر للترجمة</button></div>
+        <div class="hero-note"><span class="note-star">✳</span><span>فكرة واضحة، صورة لها أثر، وحكاية تستحق المشاهدة.</span></div>
+      </div>
+      <div class="hero-art hero-art-desktop" aria-label="تصميم تجريدي يرمز إلى صناعة الفيديو بالذكاء الاصطناعي">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-sun"></div><div class="art-frame"><span class="frame-corner corner-a"></span><span class="frame-corner corner-b"></span><span class="frame-corner corner-c"></span><span class="frame-corner corner-d"></span><span class="frame-caption">GENERATIVE<br>VISUALS</span><span class="frame-play" aria-hidden="true">▶</span></div><div class="art-token art-token-video"><span>01</span> TEXT TO VIDEO</div><div class="art-token art-token-motion"><span>02</span> MOTION / AI</div><div class="art-index">01 <i></i> 13</div><span class="art-stamp">AI<br>STUDIO</span>
+      </div>
+      <div class="hero-bottom"><span>فيديو مولّد · سرد بصري · صوت توليدي</span><a href="#ads" aria-label="انتقل إلى الأعمال" class="scroll-cue">اكتشف المعرض <span>↓</span></a></div>
+    </section>
+
+    <section class="shortcut-window section-wrap" aria-labelledby="shortcut-title">
+      <div class="shortcut-window-inner">
+        <div class="shortcut-window-head"><div><p class="eyebrow"><span class="eyebrow-line"></span> تصفّح أعمالي</p><h2 id="shortcut-title">إلى أي قسم تريد الانتقال؟</h2></div><span class="shortcut-window-mark" aria-hidden="true">↙</span></div>
+        <nav class="shortcut-links" aria-label="اختصارات أقسام الأعمال">
+          <a href="#ads"><span class="shortcut-number">01</span><span class="shortcut-label"><strong>الإعلانات</strong><small>مقطعان للمعاينة</small></span><span class="shortcut-arrow" aria-hidden="true">↙</span></a>
+          <a href="#shorts"><span class="shortcut-number">02</span><span class="shortcut-label"><strong>فيديوهات قصيرة</strong><small>مقطعان للمعاينة</small></span><span class="shortcut-arrow" aria-hidden="true">↙</span></a>
+          <a href="#long"><span class="shortcut-number">03</span><span class="shortcut-label"><strong>فيديوهات طويلة</strong><small>مقطعان للمعاينة</small></span><span class="shortcut-arrow" aria-hidden="true">↙</span></a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="portfolio-section section-wrap" id="ads">
+      <div class="portfolio-heading"><span class="portfolio-overline">01 <i></i> أعمالي</span><h2>الإعلانات<span class="muted-heading">.</span></h2><p>أفكار إعلانية تتحول إلى مشاهد مصممة بالذكاء الاصطناعي.</p></div>
+      <div class="project-grid category-preview-grid" id="ads-grid" aria-label="نماذج من الإعلانات"></div>
+      <a class="more-button" href="category.html?type=ads">المزيد من الإعلانات <span aria-hidden="true">↙</span></a>
+    </section>
+
+    <section class="portfolio-section section-wrap" id="shorts">
+      <div class="portfolio-heading"><span class="portfolio-overline">02 <i></i> أعمالي</span><h2>فيديوهات قصيرة<span class="muted-heading">.</span></h2><p>قصص سريعة وإيقاع بصري مكثف في صيغة قصيرة.</p></div>
+      <div class="project-grid category-preview-grid" id="shorts-grid" aria-label="نماذج من الفيديوهات القصيرة"></div>
+      <a class="more-button" href="category.html?type=short">المزيد من الفيديوهات القصيرة <span aria-hidden="true">↙</span></a>
+    </section>
+
+    <section class="portfolio-section section-wrap" id="long">
+      <div class="portfolio-heading"><span class="portfolio-overline">03 <i></i> أعمالي</span><h2>فيديوهات طويلة<span class="muted-heading">.</span></h2><p>مشاريع أطول تبني الفكرة والمشهد والحكاية على مهل.</p></div>
+      <div class="project-grid category-preview-grid" id="long-grid" aria-label="نماذج من الفيديوهات الطويلة"></div>
+      <a class="more-button" href="category.html?type=long">المزيد من الفيديوهات <span aria-hidden="true">↙</span></a>
+    </section>
+    <section class="approach" id="approach">
+      <div class="approach-shell section-wrap">
+        <div class="approach-lead">
+          <div class="approach-lead-copy"><p class="eyebrow"><span class="eyebrow-line"></span> خبرة تجمع التقنية بالحسّ البصري</p><h2>أحوّل أدوات الذكاء<br>إلى <span class="accent">أثرٍ يُرى.</span></h2><p class="approach-statement">أبني من الفكرة تجربة مرئية متكاملة؛ من محتوى الفيديو والصورة إلى المساحة التي تعبّر عن العلامة.</p></div>
+          <div class="approach-experience-card"><span class="experience-card-mark" aria-hidden="true">✳</span><span class="experience-card-label">خبرة مهنية</span><strong>خبرة تطبيقية طويلة</strong><span class="experience-card-rule"></span><small>الفيديو التوليدي · السرد البصري · التصميم الداخلي</small></div>
+        </div>
+
+        <div class="approach-roles">
+          <article class="role-card"><span class="role-index">01 / المحتوى</span><div class="role-icon" aria-hidden="true">✳</div><h3>ذكاء توليدي لقناة YouTube</h3><p>أنتج محتوى مرئيًا لقنوات YouTube باستخدام الذكاء الاصطناعي التوليدي، وأحوّل الأفكار إلى فيديوهات ومشاهد بصرية تخاطب الجمهور.</p></article>
+          <article class="role-card"><span class="role-index">02 / المكان</span><div class="role-icon interior-icon" aria-hidden="true">⌘</div><h3>التصميم الداخلي</h3><p>أشارك في تصميم المساحات الداخلية، مع اهتمام بتناسق التفاصيل وابتكار بيئات متوازنة.</p></article>
+          <article class="role-card higgsfield-card"><span class="role-index">03 / خبرة متخصصة</span><div class="higgsfield-duration"><strong>03</strong><span>أشهر</span></div><h3>تجربة عملية مع Higgsfield</h3><p>خبرة تطبيقية في منصة تجمع نماذج وأدوات لتوليد الصور والفيديو، مع اختيار النموذج المناسب لكل فكرة ومشهد.</p></article>
+        </div>
+
+        <div class="approach-toolkit">
+          <div class="toolkit-heading"><p class="eyebrow"><span class="eyebrow-line"></span> صندوق أدواتي الإبداعي</p><h3>النموذج المناسب، <span class="accent">للفكرة المناسبة.</span></h3><p>أختار من أدوات الفيديو والصورة والصوت ما يخدم كل فكرة ويمنحها شكلها الأفضل.</p></div>
+          <div class="toolkit-cards">
+            <article class="toolkit-card"><header><span class="toolkit-card-number">01</span><span class="toolkit-card-label">VIDEO &amp; MOTION</span><h4>الفيديو والحركة</h4></header><ul dir="ltr"><li>Higgsfield</li><li>Seedance 2.5</li><li>Kling</li><li>Veo</li><li>Runway</li><li>Luma</li><li>Hailuo</li></ul></article>
+            <article class="toolkit-card"><header><span class="toolkit-card-number">02</span><span class="toolkit-card-label">IMAGE &amp; DESIGN</span><h4>الصور والتصميم</h4></header><ul dir="ltr"><li>Nano Banana</li><li>GPT Image</li><li>FLUX</li><li>Midjourney</li><li>Seedream</li></ul></article>
+            <article class="toolkit-card"><header><span class="toolkit-card-number">03</span><span class="toolkit-card-label">IDEAS &amp; INTELLIGENCE</span><h4>الذكاء والتخطيط</h4></header><ul dir="ltr"><li>GPT-6 Astra</li><li>Gemini 4 Argon</li><li>ChatGPT</li><li>Gemini</li></ul></article>
+            <article class="toolkit-card"><header><span class="toolkit-card-number">04</span><span class="toolkit-card-label">AUDIO &amp; MUSIC</span><h4>الصوت والموسيقى</h4></header><ul dir="ltr"><li>ElevenLabs</li><li>Suno AI</li></ul></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact"><div class="contact-top"><p class="eyebrow"><span class="eyebrow-line"></span> هل لديك فكرة؟</p><span class="contact-orbit" aria-hidden="true">✳</span></div><h2>لنجعلها <span class="accent">تُرى.</span></h2><div class="contact-bottom"><p>أخبرني عن مشروعك القادم،<br>ولنبدأ من الفكرة.</p><div class="contact-links"><a href="mailto:abdelrahman.ar22@gmail.com">abdelrahman.ar22@gmail.com <span>↗</span></a><a href="tel:+963965341368">+963 965 341 368 <span>↗</span></a><div class="contact-whatsapp-cta"><span class="contact-whatsapp-recommendation" dir="auto">الخيار الأفضل</span><a class="contact-whatsapp-button" href="https://wa.me/963943996766" target="_blank" rel="noopener noreferrer"><span dir="auto">تواصل معي على واتساب</span><span aria-hidden="true">↗</span></a></div></div></div></section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">ع</span><span>عبدالرحمن أبو ريشة<span class="brand-dot">.</span></span></a><span>صناعة فيديو بالذكاء الاصطناعي التوليدي</span><span>© <span id="year"></span> عبدالرحمن أبو ريشة</span><button class="admin-lock" id="open-admin" type="button" aria-label="Open video manager" title="Video manager"><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></button></footer>
+  <dialog class="admin-dialog" id="admin-dialog" aria-labelledby="admin-title">
+    <div class="admin-dialog-head"><p class="eyebrow"><span class="eyebrow-line"></span><span id="admin-kicker">Private access</span></p><button class="admin-close" id="admin-close" type="button" aria-label="Close">×</button></div>
+    <h2 id="admin-title">Video manager</h2>
+    <form class="admin-form" id="admin-login-form">
+      <label for="admin-password" id="admin-password-label">Your password</label>
+      <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      <p class="admin-message" id="admin-login-message" role="alert" aria-live="polite"></p>
+      <button class="admin-submit" type="submit" id="admin-login-button">Unlock</button>
+    </form>
+    <form class="admin-form" id="admin-add-form" hidden>
+      <label for="admin-group" id="admin-group-label">Choose a section</label>
+      <select id="admin-group" name="group"><option value="ads">Advertisements</option><option value="short">Short Videos</option><option value="long">Long Videos</option></select>
+      <label for="admin-video-url" id="admin-url-label">Vimeo or Streamable link</label>
+      <input id="admin-video-url" name="url" type="url" inputmode="url" placeholder="https://vimeo.com/..." required>
+      <p class="admin-message" id="admin-add-message" role="status" aria-live="polite"></p>
+      <div class="admin-form-actions"><button class="admin-submit" type="submit" id="admin-add-button">Add video</button><button class="admin-logout" id="admin-logout" type="button">Log out</button></div>
+    </form>
+  </dialog>
+</body>
+</html>
+
+
+
+
