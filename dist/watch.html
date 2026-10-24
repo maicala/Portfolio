@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="Watch projects by Abdelrahman Abu Risha in his portfolio.">
+  <title>Watch a Project — Abdelrahman Abu Risha</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="i18n.js" defer></script>
+  <script src="videos.js" defer></script>
+  <script src="api/portfolio-videos.js" defer></script>
+  <script src="watch.js" defer></script>
+</head>
+<body class="watch-page">
+  <header class="topbar watch-topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">ع</span><span>عبدالرحمن أبو ريشة<span class="brand-dot">.</span></span></a>
+    <a class="watch-back" id="watch-back" href="index.html#ads"><span aria-hidden="true">→</span> العودة إلى المعرض</a>
+  </header>
+  <main class="watch-main">
+    <div class="watch-wrap">
+      <p class="eyebrow"><span class="eyebrow-line"></span><span id="watch-kind">مشاهدة العمل</span></p>
+      <aside class="streamable-info" id="streamable-info" hidden>
+        <p class="streamable-apology" id="streamable-apology"></p>
+        <div class="streamable-quality-row" id="streamable-quality-row"><span class="streamable-quality-label" id="streamable-quality-label">Quality options inside player</span><span class="streamable-quality-chip" id="quality-chip-primary">720p</span><span class="streamable-quality-chip" id="quality-chip-secondary">360p</span></div>
+        <p class="streamable-quality-note" id="streamable-quality-note"></p>
+        <a class="streamable-whatsapp" href="https://whatsapp.com/channel/0029VbDh3XKB4hdWItJaDG0t" target="_blank" rel="noopener noreferrer"><span id="streamable-whatsapp-label">Watch all videos on WhatsApp</span><span aria-hidden="true">↗</span></a>
+      </aside>
+      <h1 class="watch-title" id="watch-title">يتم فتح العمل…</h1>
+      <a class="watch-home-link" href="index.html#home"><span aria-hidden="true">←</span><span class="watch-home-label">Go back to homepage</span></a>
+      <div class="watch-viewer" id="watch-viewer">
+        <button class="video-step video-step-previous" id="previous-video" type="button" aria-label="Previous video"><span aria-hidden="true">←</span></button>
+        <div class="watch-player" id="watch-player"></div>
+        <button class="video-step video-step-next" id="next-video" type="button" aria-label="Next video"><span aria-hidden="true">→</span></button>
+      </div>
+      <p class="watch-caption">مشاهدة العمل من داخل معرض الأعمال.</p>
+    </div>
+  </main>
+  <footer class="footer"><a class="brand" href="index.html"><span class="brand-mark">ع</span><span>عبدالرحمن أبو ريشة<span class="brand-dot">.</span></span></a><span>صناعة فيديو بالذكاء الاصطناعي التوليدي</span><span>© <span id="year"></span> عبدالرحمن أبو ريشة</span></footer>
+</body>
+</html>

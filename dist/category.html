@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="Explore Abdelrahman Abu Risha’s generative AI video portfolio.">
+  <title>Portfolio — Abdelrahman Abu Risha</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="i18n.js" defer></script>
+  <script src="videos.js" defer></script>
+  <script src="api/portfolio-videos.js" defer></script>
+  <script src="portfolio-ui.js" defer></script>
+  <script src="category.js" defer></script>
+</head>
+<body class="category-page">
+  <header class="topbar category-topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">ع</span><span>عبدالرحمن أبو ريشة<span class="brand-dot">.</span></span></a>
+    <a class="watch-back" href="index.html#ads"><span aria-hidden="true">→</span> العودة إلى الرئيسية</a>
+  </header>
+  <main>
+    <section class="category-hero">
+      <p class="eyebrow"><span class="eyebrow-line"></span><span id="category-kicker">معرض أعمالي</span></p>
+      <h1 id="category-title">الأعمال</h1>
+      <p id="category-description">مشاريع فيديو بالذكاء الاصطناعي التوليدي.</p>
+      <span class="category-count" id="category-count"></span>
+    </section>
+    <section class="category-gallery section-wrap">
+      <div class="project-grid category-full-grid" id="category-grid" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="index.html"><span class="brand-mark">ع</span><span>عبدالرحمن أبو ريشة<span class="brand-dot">.</span></span></a><span>صناعة فيديو بالذكاء الاصطناعي التوليدي</span><span>© <span id="year"></span> عبدالرحمن أبو ريشة</span></footer>
+</body>
+</html>

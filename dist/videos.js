@@ -1,0 +1,15 @@
+window.portfolioVideos = [
+  { id: 'local-ad-01', group: 'ads', type: 'streamable', title: 'إعلان 01', titleEn: 'Advertisement 01', url: 'https://streamable.com/e/cxyuwv', thumbnail: 'assets/thumbnails/ad-01.jpg' },
+  { id: 'local-ad-02', group: 'ads', type: 'streamable', title: 'إعلان 02', titleEn: 'Advertisement 02', url: 'https://streamable.com/e/k4ig0h', thumbnail: 'assets/thumbnails/ad-02.jpg' },
+  { id: 'UALqD6gE8lA', group: 'long', title: 'أغنية التعلّم مع دردور 📚 | أغاني أطفال مرحة وتعليمية', titleEn: 'Learn with Dardor 📚 | Fun and Educational Kids’ Songs' },
+  { id: 'D5YvhJAfNvI', group: 'long', title: 'أغنية تعلم الحروف العربية مع دردور | ث-ج-ح | تعلم الهجاء والأبجدية | أغاني الأطفال ممتعة جدًا', titleEn: 'Learn Arabic Letters with Dardor | Arabic Alphabet Song' },
+  { id: 'xEgEDiPBa0c', group: 'long', title: 'تعلّم الترتيب مع دردور | أغنية ترتيب الصف للأطفال', titleEn: 'Learn to Keep Things Tidy with Dardor | Kids’ Song' },
+  { id: 'sXf9bOXhvaM', group: 'long', title: 'أغنية تعلم الحروف مع دردور | تعلم الأبجدية | أغاني أطفال', titleEn: 'Learn the Alphabet with Dardor | Kids’ Song' },
+  { id: 'Fx_ORt9ohFk', group: 'long', title: 'غدًا مدرسة مع دردور 🎒 | أغنية العودة إلى المدرسة للأطفال', titleEn: 'School Tomorrow with Dardor 🎒 | Back-to-School Song' },
+  { id: 'iu6Lyxlk8Yw', group: 'short', title: 'كيف تصنع شوكولاتة دردور! | How to make Dardor Chocolate #دردور', titleEn: 'How to Make Dardor Chocolate' },
+  { id: '5zScZsqrgwM', group: 'short', title: 'Learn Colors with Dardor 🎨 | تعلّم الألوان مع دردور 💧 Blue, Red & Yellow #Shorts', titleEn: 'Learn Colors with Dardor 🎨 | Blue, Red & Yellow' },
+  { id: '9m-5oo1fLGw', group: 'short', title: 'Learn ABC with Dardor | تعلم الحروف for Kids #Shorts #Kids #ABC #CforCat #LearnEnglish #Alphabet', titleEn: 'Learn ABC with Dardor | Alphabet for Kids' },
+  { id: 'NY9-vIH_nUY', group: 'short', title: 'Can You Count to 10 with Dardour? 🔢 | هل تستطيع العدّ من 1 إلى 10 مع دردور؟', titleEn: 'Can You Count to 10 with Dardor? 🔢' },
+  { id: 'oMyanuWspXW', group: 'short', title: 'أغنية تعلم الحروف | تعلم الهجاء - الأبجدية | أغاني أطفال #دردور', titleEn: 'Learn the Alphabet | Kids’ Song' },
+  { id: 'yqYAyIgxESo', group: 'short', title: '#شوكولا #الدرة #دردور', titleEn: 'Dardor Chocolate' },
+];
